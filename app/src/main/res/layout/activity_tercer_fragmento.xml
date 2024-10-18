@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment.TercerFragmento"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1D1D24">
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="156dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Isao Takahata"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#99BDD7" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="167dp"
+        android:layout_height="235dp"
+        android:src="@drawable/isao_takahata" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="304dp"
+        android:layout_height="161dp"
+        android:layout_margin="10dp"
+        android:text="Fue un director, productor y guionista de películas y series de animación japonesa. Fundó, junto con su amigo Hayao Miyazaki, los estudios Ghibli. Sus obras más reconocidas fueron las series para televisión Heidi, la niña de los Alpes (1974) y Marco (1976), y los largometrajes La tumba de las luciérnagas (1988), Recuerdos del ayer (1991) y El cuento de la princesa Kaguya (2013)"
+        android:textColor="#99BDD7"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment.SegundoFragmento"
+    android:background="#7FACEB"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Hayao Miyazaki"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="167dp"
+        android:layout_height="235dp"
+        android:src="@drawable/hayao_miyazaki"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="304dp"
+        android:layout_height="148dp"
+        android:layout_margin="10dp"
+        android:text="Es un director de cine de animación, animador, ilustrador, empresario, mangaka y productor de anime japonés, de renombre internacional y con una carrera de cinco décadas. Junto con Isao Takahata, fundó Studio Ghibli, un estudio de películas y animación. Es comparado por muchos con Walt Disney, Steven Spielberg u Orson Welles"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoGhibli</string>
+    <string name="toolbarTitulo">Studio Ghibli</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at lorem quam. Curabitur auctor, lorem vel egestas luctus, urna libero dapibus nulla, sed gravida sapien enim in leo. Integer id mi ac nulla efficitur cursus. Phasellus consectetur metus id odio blandit, at ultrices erat bibendum. Suspendisse scelerisque risus nec ante tincidunt, ac ultricies arcu dictum. Cras vehicula sapien non orci gravida, non fermentum velit scelerisque. Nam nec lacinia urna. Nullam at magna venenatis, vulputate orci in, malesuada urna. Aliquam erat volutpat. Ut vulputate orci quis felis ullamcorper, et tempor lorem pellentesque. Suspendisse potenti.</string>
+    <string name="sp_credenciales">SP_CREDENCIALES</string>
+    <string name="nombre_usuario">NOMBRE_USUARIO</string>
+    <string name="usuario_password">usuario_password</string>
+</resources>
