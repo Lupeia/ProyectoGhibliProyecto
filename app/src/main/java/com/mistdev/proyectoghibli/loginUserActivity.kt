@@ -99,13 +99,17 @@ class loginUserActivity : AppCompatActivity() {
 
             if (usuario.isEmpty() || pass.isEmpty()) {
 
+
                 Toast.makeText(this, "-Completar los campos", Toast.LENGTH_SHORT).show()
 
             }else{
+
                 val bbd = AppDatabase.getDatabase(this)
                 val usuarioEncontrado= bbd.usuarioDao().getUsuario(usuario,pass)
 
                 if(usuarioEncontrado != null){
+
+                    mostrarNotificacion()
 
                    if(checkbox.isChecked) {
 

@@ -11,9 +11,9 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.mistdev.proyectoghibli.R
-import kotlin.jvm.java
 
 class PeliculaActivity : AppCompatActivity() {
+
     lateinit var toolbar: Toolbar
     lateinit var titulo: TextView
     lateinit var director: TextView
@@ -41,6 +41,7 @@ class PeliculaActivity : AppCompatActivity() {
         titulo.text = intent.getStringExtra("TITULO")
         director.text = intent.getStringExtra("DIRECTOR")
         duracion.text = intent.getStringExtra("DURACION")
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -57,9 +58,5 @@ class PeliculaActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
-
-
-
-
 
 }
