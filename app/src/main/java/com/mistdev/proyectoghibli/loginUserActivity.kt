@@ -109,7 +109,6 @@ class loginUserActivity : AppCompatActivity() {
 
                 if(usuarioEncontrado != null){
 
-                    mostrarNotificacion()
 
                    if(checkbox.isChecked) {
 
