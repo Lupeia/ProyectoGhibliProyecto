@@ -34,7 +34,7 @@ class PeliculaAdapter(val peliculas: List<PeliculaApi>, var context:Context):
             holder.itemView.setOnClickListener {
 
                 val intent = Intent(context, PeliculaActivity::class.java).apply {
-                    putExtra("peliculaId", pelicula.id) // Enviar el ID de la película
+                    putExtra("peliculaId", pelicula.id)
                 }
                 context.startActivity(intent)
 
