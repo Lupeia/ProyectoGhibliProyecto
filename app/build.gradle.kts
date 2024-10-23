@@ -50,6 +50,10 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.10.0")
     implementation("com.squareup.retrofit2:converter-moshi:2.10.0")
 
+
+        implementation ("com.github.bumptech.glide:glide:4.12.0")
+        kapt ("com.github.bumptech.glide:compiler:4.12.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

@@ -2,6 +2,7 @@ package com.mistdev.proyectoghibli.ListadoYpeliculas
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,7 +17,6 @@ class PeliculaAdapter(val peliculas: List<PeliculaApi>, var context:Context):
 
         class PeliculaViewHolder(view: View): RecyclerView.ViewHolder(view)
 
-
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PeliculaViewHolder {
             val view = LayoutInflater.from(parent.context)
                 .inflate(R.layout.item_pelicula,parent,false)
@@ -30,7 +30,21 @@ class PeliculaAdapter(val peliculas: List<PeliculaApi>, var context:Context):
             holder.itemView.findViewById<TextView>(R.id.tv_titulo).text =pelicula.title
             holder.itemView.findViewById<TextView>(R.id.tv_director).text = "Director: ${pelicula.director}"
             holder.itemView.findViewById<TextView>(R.id.tv_duracion).text = "Duración: ${pelicula.duracion} min"
+
+            holder.itemView.setOnClickListener {
+
+                val intent = Intent(context, PeliculaActivity::class.java).apply {
+                    putExtra("peliculaId", pelicula.id) // Enviar el ID de la película
+                }
+                context.startActivity(intent)
+
+            }
+
+
+
         }
 
 
 }
+
+
